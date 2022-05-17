@@ -256,7 +256,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Tambahkan Gaclex Ke Group ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="➕️ Masukan Gaclex Ke Group ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
